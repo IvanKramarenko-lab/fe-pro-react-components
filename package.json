@@ -43,6 +43,7 @@
     "webpack-dev-server": "^4.7.4"
   },
   "dependencies": {
+    "prettier": "^2.7.1",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
