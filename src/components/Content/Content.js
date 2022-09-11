@@ -1,7 +1,7 @@
 import React from 'react';
-import ListItem from './ListItem';
+import Article from './Article';
 
-const Posts = () => {
+const Content = () => {
   const item = [
     {
       title: '15 полезных однострочных выражений JavaScript',
@@ -73,7 +73,7 @@ const Posts = () => {
           <h1>Posts</h1>
           <ul className="list">
             {item.map(({ title, text, id }) => {
-              return <ListItem title={title} text={text} key={id} />;
+              return <Article title={title} text={text} key={id} />;
             })}
           </ul>
         </div>
@@ -82,4 +82,4 @@ const Posts = () => {
   );
 };
 
-export default Posts;
+export default Content;

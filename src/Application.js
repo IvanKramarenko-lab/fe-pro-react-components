@@ -1,13 +1,13 @@
 import React from 'react';
 import Header from './components/header/Header';
-import Posts from './components/Posts/Posts';
+import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
 
 const Application = () => {
   return (
     <div className="wrapper">
       <Header />
-      <Posts />
+      <Content />
       <Footer />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const ListItem = ({ title, text }) => {
+const Article = ({ title, text }) => {
   return (
     <li className="list__item">
       <h2>{title}</h2>
@@ -10,9 +10,9 @@ const ListItem = ({ title, text }) => {
   );
 };
 
-ListItem.prototype = {
+Article.prototype = {
   title: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
 };
 
-export default ListItem;
+export default Article;
